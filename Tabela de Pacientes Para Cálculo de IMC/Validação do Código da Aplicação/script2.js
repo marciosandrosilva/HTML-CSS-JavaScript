@@ -1,6 +1,6 @@
 /* Nesta nova versão do aplicativo, Criamos uma estrutura 'for()' para percorrer todas 
-as linhas da tabela e todas as informações das respectivas linhas que correspondem cada 
-paciente. Após este procedimento, uma validação foi incluída para impor condições em 
+as linhas da tabela e capturar todas as informações das respectivas linhas que correspondem 
+cada paciente. Após este procedimento, uma validação foi incluída para impor condições em 
 relação aos valores de peso e altura que são possíveis de serem informados na tabela. 
 Tais condições estão descritas nas estruturas condicionais codificadas abaixo, onde: 
 caso os valores informados na tabela sejam inválidos de acordo com a condição, o erro
