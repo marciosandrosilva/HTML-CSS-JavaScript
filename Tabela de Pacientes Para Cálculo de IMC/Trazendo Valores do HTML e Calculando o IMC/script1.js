@@ -1,9 +1,9 @@
 /* O aplicativo consiste em uma tabela com 5 pacientes onde cada um deles terá um nome, peso, altura
-e gordura e cada um deles também terá o seu IMC calculado. Para trazer os valores do HTML utilizadas
+e gordura e cada um deles também terá o seu IMC calculado. Para trazer os valores do HTML, utilizamos
 classes numeradas para cada célula da tabela (td) onde cada número na classe corresponde a uma linha 
 (tr) desta mesma tabela. Já os cálculos do imc de cada linha (paciente) foram realizados através do 
 atributo 'textContent' já que os valores já estão definidos na tabela restando apenas realizar a 
-importação dos mesmso para o JavaScript. A utilização do método 'toFixed()' serve para imprimir
+importação dos mesmsos para o JavaScript. A utilização do método 'toFixed()' serve para imprimir
 na tela o valor de saída com 2 casas decimais. */
 
 //----------------------- 1 -----------------------------
