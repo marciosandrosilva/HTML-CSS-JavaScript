@@ -1,0 +1,52 @@
+@charset "utf8";
+
+body {
+    background-color: rgb(148, 94, 161);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+header {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, .7);
+    margin-top: 50px;
+}
+main {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, .7);
+}
+div {
+    text-align: center;
+}
+.botao {
+    position: absolute;
+    font-size: 20pt;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 15%;
+    max-height: 15%;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, .7);
+}
+.cor-do-texto-manha {
+    color: green;
+}
+.cor-do-texto-tarde {
+    color: orange;
+}
+.cor-do-texto-noite {
+    color: brown;
+}

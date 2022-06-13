@@ -1,0 +1,37 @@
+@charset "utf8";
+
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-weight: bold;
+}
+header {
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+    margin-top: 50px;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+}
+.botao {
+    padding: 10px;
+}
+.resultado {
+    color: lightgrey;
+}

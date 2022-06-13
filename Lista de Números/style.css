@@ -1,0 +1,45 @@
+@charset "utf8";
+
+body {
+    background-color: rgb(210, 92, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-weight: bold;
+}
+header {
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+    margin-top: 50px;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+}
+.numero {
+    padding: 5px;
+}
+.botao {
+    padding: 5px;
+}
+.botao-2 {
+    padding: 5px;
+    margin-top: 10px;
+}
+.lista {
+    width: 265px;
+    margin-bottom: 10px;
+}
+
