@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+      <head>
+          <meta charset="utf-8">
+          <title>Calculo IMC</title>
+          <link rel="stylesheet" href="style4.css">
+      </head>
+    <body>
+        <h1>Cálculo de IMC</h1>
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Peso (kg)</th>
+                    <th>Altura (m)</th>
+                    <th>Gordura Corporal (%)</th>
+                    <th>IMC</th>
+                </tr>
+            </thead>
+              <tr class="paciente">
+                  <td class="nome">Paulo</td>
+                  <td class="peso">100</td>
+                  <td class="altura">2.00</td>
+                  <td class="gordura">20</td>
+                  <td class="imc">0</td>
+              </tr>
+              <tr class="paciente">
+                  <td class="nome">Marcio</td>
+                  <td class="peso">85</td>
+                  <td class="altura">2.10</td>
+                  <td class="gordura">50</td>
+                  <td class="imc">0</td>
+              </tr>
+              <tr class="paciente">
+                  <td class="nome">Manoel</td>
+                  <td class="peso">70</td>
+                  <td class="altura">1.78</td>
+                  <td class="gordura">30</td>
+                  <td class="imc">0</td>
+              </tr>
+              <tr class="paciente">
+                  <td class="nome">Gilcelia</td>
+                  <td class="peso">60</td>
+                  <td class="altura">1.80</td>
+                  <td class="gordura">40</td>
+                  <td class="imc">0</td>
+              </tr>
+              <tr class="paciente">
+                  <td class="nome">Marcelo</td>
+                  <td class="peso">90</td>
+                  <td class="altura">2.20</td>
+                  <td class="gordura">30</td>
+                  <td class="imc">0</td>
+              </tr>
+        </table>
+        <hr>
+          <form class="formulario">
+              <div class="nome">
+                  <label for="nome">Nome:</label>
+                  <input id="nome" name="nome" type="text" placeholder="digite o nome do seu paciente">
+              </div>
+              <div class="peso">
+                  <label for="peso">Peso:</label>
+                  <input id="peso" name="peso" type="text" placeholder="digite o peso do seu paciente">
+              </div>
+              <div class="altura">
+                  <label for="altura">Altura:</label>
+                  <input id="altura" name="altura" type="text" placeholder="digite a altura do seu paciente">
+              </div>
+              <div class="gordura">
+                  <label for="gordura">% de Gordura:</label>
+                  <input id="gordura" type="text" placeholder="digite a porcentagem de gordura do seu paciente">
+              </div>
+          </form>
+          <button class="botao">Adicionar</button>
+    <script src="tabela4.js" charset="utf-8"></script>
+    <script src="formulario4.js" charset="utf-8"></script>
+    </body>
+</html>
