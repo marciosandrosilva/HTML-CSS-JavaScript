@@ -13,26 +13,40 @@ for (var i = 0; i < pacientes.length; i++) {
     
     var celulaImc = pacientes[i].querySelector('.imc')
 
-    var pesoValido = true
-    var alturaValida = true
+    var pesoValido = pesoCorreto()
+    var alturaValida = alturaCorreta()
 
-    if (peso <= 0 || peso >= 300) {
+    if (!pesoValido) {
         celulaImc.innerHTML = 'Peso Inválido!'
-        peso.style.backgroundColor = 'red'
-        pesoValido = false
+        pacientes[i].classList.add("cor")
     }
-    if (altura <= 0 || altura >= 3.00) {
+    if (!alturaValida) {
         celulaImc.innerHTML = 'Altura Inválida'
-        altura.style.backgroundColor = 'red'
-        alturaValida = false
+        pacientes[i].classList.add("cor")
     }
     if (pesoValido && alturaValida) {
         var imc = calcularImc(peso, altura)
         celulaImc.textContent = imc
     }  
 }
+
 function calcularImc(peso, altura) {
     var imc = 0
     imc = peso / (altura * altura)
     return imc.toFixed(2)
+}
+
+function pesoCorreto() {
+    if (peso >= 0 && peso <= 300) {
+        return true
+    } else {
+        return false
+    }
+}
+function alturaCorreta() {
+    if (altura >= 0 && altura <= 3.00) {
+        return true
+    } else {
+        return false
+    }
 }

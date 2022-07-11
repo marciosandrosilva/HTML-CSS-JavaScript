@@ -34,3 +34,7 @@ hr {
     display: block;
     margin: auto;
 }
+.cor {
+    background-color: red;
+    color: white;
+}
